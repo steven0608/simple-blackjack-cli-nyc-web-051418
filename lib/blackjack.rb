@@ -63,7 +63,6 @@ welcome
 card_total = initial_round
 until card_total>21
   hit?(card_total)
-  break
 
 end
 display_card_total(card_total)
